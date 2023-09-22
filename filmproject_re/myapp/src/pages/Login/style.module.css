@@ -1,0 +1,137 @@
+
+
+
+
+
+.login {
+    background-color: black;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    min-height: 100vh;
+}
+
+.form {
+    width: 500px;
+    height: 300px;
+    background-color:  #181818; 
+    padding: 20px; 
+    border-radius: 10px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+    color:#ccc;
+   
+    
+}
+
+
+.form label {
+    font-weight: bold; 
+    margin-bottom: 20px; 
+}
+
+.form input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%; 
+    background-color: #333333;
+    margin: 10px;
+
+}
+
+.form button{
+    width: 100px;
+    height: 25px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #333333;
+    color: #ccc;
+     transition: background-color 0.3s
+}
+
+.form >button:hover{
+    background-color:rgb(32, 31, 31);
+}
+
+.form button:active {
+    background-color: green;
+}
+
+.links{
+    text-decoration: none;
+    color: #ccc; 
+}
+
+
+
+
+
+.forget{
+    background-color: black;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    min-height: 100vh;
+}
+
+.forgetForm {
+    width: 500px;
+    height: 500px;
+    background-color:  #181818; 
+    padding: 20px; 
+    border-radius: 10px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+    color:#ccc;
+   
+    
+}
+
+
+.forgetForm label {
+    font-weight: bold; 
+    margin-bottom: 20px; 
+}
+
+.forgetForm input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%; 
+    background-color: #333333;
+    margin: 10px;
+
+}
+
+
+
+.forgetForm button{
+    width: 100px;
+    height: 25px;
+   
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #333333;
+    color: #ccc;
+    transition: background-color 0.3s
+}
+
+.forgetForm button:hover{
+    background-color:rgb(32, 31, 31);
+}
+
+
+
+.error{
+    color: red;
+}

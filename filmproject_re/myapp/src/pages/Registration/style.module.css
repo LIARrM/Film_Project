@@ -1,0 +1,61 @@
+
+
+
+.reg{
+    width: 100%;
+    min-height: 900px;
+    background-color: black;
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.reg>form{
+    width: 400px;
+    height: 420px;
+    border-color: black solid 2px;
+    background-color: #222222;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    font-family: cursive;
+}
+
+.reg label {
+    color:#ccc;
+    text-align: center; /* Центрируйте текст по горизонтали */
+}
+
+
+.reg input {
+    width: 220px;
+    height: 30px;
+    display: flex;
+    background-color: #333333;
+
+}
+
+
+.reg button{
+    background-color: #333333;
+    width: 120px;
+    height: 30px;
+    font-family: cursive;
+    color: #ccc;
+    cursor: pointer;
+    transition: background-color 0.3s;
+
+}
+
+.reg button:hover{
+                    
+    background-color: #212224;
+}
+
+
+.form>button:active {
+    background-color: aquamarine;
+}

@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+ }
+ 
+
+
+.addFilm{
+    width: 100%; 
+    min-height: 900px;
+    color: #ccc;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+} 
+
+
+.addFilm>form{
+    width: 900px;
+    height: 900px;
+    color: #ccc;
+    background-color:  #222222;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.addFilm input{
+    width: 220px;
+    height: 30px;
+    background-color: #333333;
+    display: flex;
+    font-family: cursive;
+} 
+
+.addFilm select{
+    width: 220px;
+    height: 50px;
+    background-color: #333333;
+    color: #ccc;
+    font-family: cursive;
+    display: flex;
+    
+}
+
+
+.addFilm textarea{
+    width: 220px;
+    height: 30px;
+    background-color: #333333;
+    color: #ccc;
+    font-family: cursive;
+    display: flex;
+}
+
+.addFilm button{
+    width: 120px;
+    height: 30px;
+    font-family: cursive;
+    background-color: #333333;
+    color: #ccc;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+
+.addFilm button:hover{
+    background-color: #222222;
+   
+}
